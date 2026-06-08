@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f5f3ef;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 40px;
+}
+
+.logo{
+    font-size:45px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:orangered;
+}
+
+.right-text{
+    color:gray;
+    letter-spacing:2px;
+}
+
+/* MAIN */
+
+.container{
+    padding:40px;
+}
+
+.title{
+    font-size:80px;
+    font-weight:bold;
+    line-height:75px;
+}
+
+.title span{
+    color:orangered;
+}
+
+.top-box{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.total-btn{
+    background:black;
+    color:white;
+    padding:18px 30px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* BUTTONS */
+
+.buttons{
+    margin-top:40px;
+}
+
+button{
+    padding:15px 30px;
+    border:1px solid lightgray;
+    background:white;
+    margin-right:10px;
+    cursor:pointer;
+    font-size:22px;
+}
+
+.active{
+    background:black;
+    color:white;
+}
+
+.year-active{
+    background:orangered;
+    color:white;
+}
+
+/* COUNT BOX */
+
+.count-container{
+    margin-top:50px;
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.count-box{
+    width:250px;
+    background:white;
+    padding:25px;
+    border-left:5px solid orangered;
+    transition:0.3s;
+}
+
+.count-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.count-box h1{
+    font-size:70px;
+}
+
+.count-box p{
+    color:gray;
+    font-size:25px;
+}
+
+.green{
+    border-color:green;
+}
+
+.blue{
+    border-color:blue;
+}
+
+.purple{
+    border-color:purple;
+}
+
+.orange{
+    border-color:orange;
+}
+
+.gold{
+    border-color:gold;
+}
+
+/* STUDENT */
+
+.department-title{
+    margin-top:70px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.dept-name{
+    background:#d9f5dd;
+    padding:10px 20px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.student-count{
+    color:gray;
+    font-size:25px;
+}
+
+.student-container{
+    margin-top:30px;
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.student-card{
+    width:350px;
+    background:white;
+    border:1px solid #ddd;
+    padding:30px;
+    transition:0.3s;
+    position:relative;
+}
+
+.student-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.circle{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#d9f5dd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+    color:#1f6b52;
+}
+
+.year-top{
+    position:absolute;
+    top:20px;
+    right:20px;
+    color:gray;
+    font-weight:bold;
+}
+
+.student-name{
+    margin-top:20px;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.email{
+    color:gray;
+    margin-top:5px;
+    font-size:22px;
+}
+
+.bottom{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.year-btn{
+    border:1px solid lightgray;
+    padding:10px 20px;
+    color:gray;
+}
+
+.id{
+    color:lightgray;
+    font-size:45px;
+    font-weight:bold;
+}

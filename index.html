@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>StudentDB</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+
+        <div class="logo">
+            Student<span>DB</span>
+        </div>
+
+        <div class="right-text">
+            ACADEMIC DASHBOARD · 2024-25
+        </div>
+
+    </div>
+
+    <!-- MAIN -->
+
+    <div class="container">
+
+        <div class="top-box">
+
+            <div class="title">
+                Students <br>
+                <span>Overview</span>
+            </div>
+
+            <div class="total-btn">
+                7 STUDENTS TOTAL
+            </div>
+
+        </div>
+
+        <!-- DEPARTMENT BUTTONS -->
+
+        <div class="buttons">
+
+            <button class="active" onclick="showDepartment('ALL')">
+                All Departments
+            </button>
+
+            <button onclick="showDepartment('CSE')">CSE</button>
+
+            <button onclick="showDepartment('IT')">IT</button>
+
+            <button onclick="showDepartment('ECE')">ECE</button>
+
+            <button onclick="showDepartment('EEE')">EEE</button>
+
+            <button onclick="showDepartment('MECH')">MECH</button>
+
+        </div>
+
+        <!-- YEAR BUTTONS -->
+
+        <div class="buttons">
+
+            <button class="year-active" onclick="showYear('ALL')">
+                All Years
+            </button>
+
+            <button onclick="showYear(1)">Year 1</button>
+
+            <button onclick="showYear(2)">Year 2</button>
+
+            <button onclick="showYear(3)">Year 3</button>
+
+            <button onclick="showYear(4)">Year 4</button>
+
+        </div>
+
+        <!-- COUNT BOXES -->
+
+        <div class="count-container">
+
+            <div class="count-box">
+                <h3>TOTAL</h3>
+                <h1>7</h1>
+                <p>students</p>
+            </div>
+
+            <div class="count-box green">
+                <h3>CSE</h3>
+                <h1>2</h1>
+                <p>students</p>
+            </div>
+
+            <div class="count-box blue">
+                <h3>IT</h3>
+                <h1>2</h1>
+                <p>students</p>
+            </div>
+
+            <div class="count-box purple">
+                <h3>ECE</h3>
+                <h1>1</h1>
+                <p>student</p>
+            </div>
+
+            <div class="count-box orange">
+                <h3>EEE</h3>
+                <h1>1</h1>
+                <p>student</p>
+            </div>
+
+            <div class="count-box gold">
+                <h3>MECH</h3>
+                <h1>1</h1>
+                <p>student</p>
+            </div>
+
+        </div>
+
+        <!-- STUDENT DATA -->
+
+        <div id="studentData"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
